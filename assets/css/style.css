@@ -1,0 +1,51 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font: 16px;
+}
+/*First Mobile*/
+
+
+@media screen and (min-width: 375px) {
+    .container{
+        display: grid;
+        gap: 10px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    #img-principal{
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .box{
+        background-color: hsl(47, 88%, 63%);
+        color: hsl(0, 0%, 7%);
+        width: 100px;
+        text-align: center;
+        font-weight: 800;
+        margin: 30px 0 15px 0;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+
+    .publicacao{
+        color: hsl(0, 0%, 7%);
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    h1{
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+}
