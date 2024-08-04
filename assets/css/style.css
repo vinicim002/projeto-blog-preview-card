@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color-body: hsl(47, 88%, 63%);
+    --background-retangulo: hsl(0, 0%, 100%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--background-color-body);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--background-retangulo);
+    margin: auto auto;
+    height: 38rem;
+    width: 40rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    box-shadow: 8px 9px 0px 0 black;
+}
