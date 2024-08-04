@@ -33,3 +33,9 @@ main{
     border: 1px solid black;
     box-shadow: 8px 9px 0px 0 black;
 }
+
+.figura-principal img{
+    border-radius: 1rem;
+    margin-bottom: 2rem ;
+}
+
