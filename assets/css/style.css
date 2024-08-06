@@ -9,10 +9,13 @@
 :root{
     --background-color-body: hsl(47, 88%, 63%);
     --background-retangulo: hsl(0, 0%, 100%);
+    --font-family-destaque: "Figtree", sans-serif;
+    --font-family-padrao: "Open Sans", sans-serif;
 }
 
 html{
     font-size: 62.5%;
+    font-family: var(--font-family-padrao);
 }
 
 body{
@@ -26,9 +29,9 @@ main{
     align-items: center;
 
     background-color: var(--background-retangulo);
-    margin: auto auto;
-    height: 38rem;
-    width: 40rem;
+    margin: 15rem  auto;
+    height: 52rem;
+    width: 37rem;
     border-radius: 2rem;
     border: 1px solid black;
     box-shadow: 8px 9px 0px 0 black;
@@ -37,5 +40,68 @@ main{
 .figura-principal img{
     border-radius: 1rem;
     margin-bottom: 2rem ;
+    margin-top: 0rem;
+}
+
+.section1{
+    align-self: flex-start;
+    margin:  0 0 2rem 1.5rem ;
+}
+
+.box-learning{
+    width: 8rem;
+    background-color: var(--background-color-body);
+    padding: 0.8rem 0;
+    margin-bottom: 1.5rem;
+    
+    font-size: 1.6rem;
+    font-family: var(--font-family-destaque);
+    text-align: center;
+    font-weight: 800;
+
+    border-radius: 0.5rem;
+}
+
+.descricao{
+    font-size: 1.6rem;
+}
+
+.section2{
+    margin: 0 2rem 2rem 0;
+}
+
+.titulo-principal{
+    font-size: 2rem;
+    font-family: var(--font-family-destaque);
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.paragrafo-1{
+    text-align: justify;
+    font-size: 1.6rem;
+}
+
+footer{
+    align-self: flex-start;
+    margin-left: 1em;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-footer{
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.nome{
+    align-self: center;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: var(--font-family-destaque);
+    font-weight: 800;
 }
 
